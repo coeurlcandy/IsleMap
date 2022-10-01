@@ -2,6 +2,6 @@
 
 A map for your unnamed island.
 
-* Toggle materials -> Filter Nodes
+* Toggle materials -> |Filter Nodes|
 * Zoom in -> ctrl + mouse wheel
-* Change the opacity of the map -> +/-/Reset (back to original opacity)
+* Opacity of map -> |+| to increase opacity |-| to decrease opacity |Reset| to change back to original opacity
