@@ -1,6 +1,6 @@
 # IsleMap
 
-A map for your unnamed island.
+A map that displays all gathering nodes for your unnamed island.
 
 * Toggle materials -> |Filter Nodes|
 * Zoom in -> ctrl + mouse wheel
