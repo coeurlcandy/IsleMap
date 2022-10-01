@@ -1,0 +1,14 @@
+{
+  "Author": "sugarcoded",
+  "Name": "Isle Map",
+  "Punchline": "It's a map!",
+  "Description": "Filter nodes on a map for your Unnamed Island.",
+  "InternalName": "IsleMap",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "isle",
+    "map",
+    "plugin",
+    "gathering"
+  ]
+}
