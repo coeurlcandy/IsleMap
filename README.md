@@ -1,5 +1,7 @@
 # IsleMap
 
 A map for your unnamed island.
-* Click Filter Nodes to toggle a selection of materials.
-* Ctrl + mouse wheel to zoom in.
+
+* Toggle materials -> Filter Nodes
+* Zoom in -> ctrl + mouse wheel
+* Change the opacity of the map -> + or -
