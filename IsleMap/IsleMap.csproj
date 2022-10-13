@@ -25,6 +25,10 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Visible>false</Visible>
     </Content>
+    <Content Include="..\Data\map_icons\*.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Visible>false</Visible>
+    </Content>
   </ItemGroup>
 
   <PropertyGroup>
@@ -34,9 +38,12 @@
    <PropertyGroup Condition="'$([System.Runtime.InteropServices.RuntimeInformation]::IsOSPlatform($([System.Runtime.InteropServices.OSPlatform]::Linux)))'">
     <DalamudLibPath>$(DALAMUD_HOME)/</DalamudLibPath>
   </PropertyGroup>
+  
+   <ItemGroup>
+     <PackageReference Include="DalamudPackager" Version="2.1.8" />
+   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="DalamudPackager" Version="2.1.8" />
     <Reference Include="FFXIVClientStructs">
       <HintPath>$(DalamudLibPath)FFXIVClientStructs.dll</HintPath>
       <Private>false</Private>

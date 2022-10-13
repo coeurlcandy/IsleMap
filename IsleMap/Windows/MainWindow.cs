@@ -541,11 +541,16 @@ public class MainWindow : Window, IDisposable
             opacity += 0.1f;
         }
         ImGui.SameLine();
-        if (ImGui.Button("Reset"))
+        if (ImGui.Button("Reset Opacity"))
         {
             opacity = 1.0f;
         }
-        
+        ImGui.SameLine();
+        if (ImGui.Button("Reset Zoom"))
+        {
+            wheel_counter = 1;
+        }
+
         ImGui.Image(this.MapImage.ImGuiHandle, new Vector2((this.MapImage.Width / 2) * wheel_counter, (this.MapImage.Height / 2) * wheel_counter), 
             new Vector2(0.0f, 0.0f), new Vector2(1.0f, 1.0f), new Vector4(1.0f,1.0f,1.0f,opacity));
       
